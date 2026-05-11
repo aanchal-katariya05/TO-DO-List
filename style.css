@@ -17,12 +17,44 @@ h1 {
 }
 
 input{
-    margin: 2rem  33.8rem;
+    margin: 1.4rem  33.2rem;
     padding: 0.5rem 3rem ;
     background-color: #EEF2FF;
+    font-weight: bolder;
 }
 
 button {
-    margin: 1.0rem 38rem ;
-    padding: 0.5rem 3.2rem;
+    margin: 1rem 37rem ;
+    padding: 0.4rem 3.2rem;
+    background-color: #5dc0ee;
+    color: black;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #0284C7 ;
+}
+
+#TaskList {
+    list-style: none;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#TaskList li {
+    background-color: #EEF2FF;
+    width: 550px;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    color: #1E293B;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#TaskList li:hover {
+    transform: scale(1.03);
+    transition: 0.2s;
 }
