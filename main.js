@@ -20,6 +20,4 @@ function addTask()
     li.remove();
   }
   li.appendChild(button);
-
-
 }
